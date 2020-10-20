@@ -6,24 +6,15 @@
     <description>Recent content in Tags on ARI Gorizia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-IT</language>
-    <lastBuildDate>Mon, 13 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ari-go.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>contest</title>
-      <link>https://ari-go.github.io/tags/contest/</link>
-      <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ari-go.github.io/tags/contest/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>protezione civile</title>
       <link>https://ari-go.github.io/tags/protezione-civile/</link>
-      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ari-go.github.io/tags/protezione-civile/</guid>
       <description></description>
@@ -32,9 +23,27 @@
     <item>
       <title>radioassistenza</title>
       <link>https://ari-go.github.io/tags/radioassistenza/</link>
-      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ari-go.github.io/tags/radioassistenza/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>progetti</title>
+      <link>https://ari-go.github.io/tags/progetti/</link>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ari-go.github.io/tags/progetti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>contest</title>
+      <link>https://ari-go.github.io/tags/contest/</link>
+      <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ari-go.github.io/tags/contest/</guid>
       <description></description>
     </item>
     
