@@ -45,18 +45,38 @@
   </url>
   
   <url>
-    <loc>https://ari-go.github.io/categories/attivit%C3%A0/</loc>
+    <loc>https://ari-go.github.io/categories/</loc>
     <lastmod>2020-10-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ari-go.github.io/categories/</loc>
+    <loc>https://ari-go.github.io/tags/corsi/</loc>
+    <lastmod>2020-10-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ari-go.github.io/categories/news/</loc>
     <lastmod>2020-10-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ari-go.github.io/news/2020-10-19-apertura-sede/</loc>
     <lastmod>2020-10-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ari-go.github.io/news/2020-10-26-patente-radioamatore/</loc>
+    <lastmod>2020-10-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ari-go.github.io/tags/</loc>
+    <lastmod>2020-10-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ari-go.github.io/categories/attivit%C3%A0/</loc>
+    <lastmod>2020-05-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -71,11 +91,6 @@
   
   <url>
     <loc>https://ari-go.github.io/tags/radioassistenza/</loc>
-    <lastmod>2020-05-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ari-go.github.io/tags/</loc>
     <lastmod>2020-05-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -106,11 +121,6 @@
   
   <url>
     <loc>https://ari-go.github.io/news/2019-11-18-corso-patente-radioamatore/</loc>
-    <lastmod>2019-11-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ari-go.github.io/categories/news/</loc>
     <lastmod>2019-11-18T00:00:00+00:00</lastmod>
   </url>
   

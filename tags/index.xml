@@ -6,10 +6,19 @@
     <description>Recent content in Tags on ARI Gorizia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-IT</language>
-    <lastBuildDate>Fri, 15 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ari-go.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>corsi</title>
+      <link>https://ari-go.github.io/tags/corsi/</link>
+      <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ari-go.github.io/tags/corsi/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>protezione civile</title>
