@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>progetti on ARI Gorizia</title><link>https://www.arigorizia.org/tags/progetti/</link><description>Recent content in progetti on ARI Gorizia</description><generator>Hugo -- gohugo.io</generator><language>it-IT</language><lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.arigorizia.org/tags/progetti/index.xml" rel="self" type="application/rss+xml"/><item><title>Work in progress...</title><link>https://www.arigorizia.org/news/2020-02-13-posa-traliccio/</link><pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate><guid>https://www.arigorizia.org/news/2020-02-13-posa-traliccio/</guid><description>Finalmente è iniziata la posa del traliccio presso la sede A.R.I. di Gorizia. Grazie al concessione rilasciata dal Comune di Gorizia e all&amp;rsquo;ospitalità della Protezione Civile Comunale sono finalmente iniziati i lavori di installazione del traliccio ad uso radioamatoriale. Lo sforzo economico per l&amp;rsquo;opera è frutto dei risparmi fatti negli anni passati ed anche grazie ai vari benefattori che hanno direttamente contribuito a sostenere le spese. Purtroppo, causa Covid-19, il lavori hanno subito dei forti rallentamenti.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>progetti on ARI Gorizia</title>
+    <link>https://www.arigorizia.org/tags/progetti/</link>
+    <description>Recent content in progetti on ARI Gorizia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-IT</language>
+    <lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.arigorizia.org/tags/progetti/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Work in progress...</title>
+      <link>https://www.arigorizia.org/news/2020-02-13-posa-traliccio/</link>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arigorizia.org/news/2020-02-13-posa-traliccio/</guid>
+      <description>Finalmente è iniziata la posa del traliccio presso la sede A.R.I. di Gorizia. Grazie al concessione rilasciata dal Comune di Gorizia e all&amp;rsquo;ospitalità della Protezione Civile Comunale sono finalmente iniziati i lavori di installazione del traliccio ad uso radioamatoriale. Lo sforzo economico per l&amp;rsquo;opera è frutto dei risparmi fatti negli anni passati ed anche grazie ai vari benefattori che hanno direttamente contribuito a sostenere le spese. Purtroppo, causa Covid-19, il lavori hanno subito dei forti rallentamenti.</description>
+    </item>
+    
+  </channel>
+</rss>
