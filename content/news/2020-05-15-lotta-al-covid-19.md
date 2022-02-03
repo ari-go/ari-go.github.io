@@ -19,8 +19,12 @@ draft: false
 
 ---
 
-Anche A.r.i. Gorizia è scesa in prima linea dando il proprio, anche se piccolo, contributo per il contrasto alla diffusione del COVID-19. Insieme alla squadra comunale di Protezione Civile di Gorizia ha gestito le radiocomunicazioni per il servizio di igienizzazione svolto dall'esercito italiano nelle quattro notti previste.
-Durante il periodo di lockdown, altri operatori di A.R.I. Gorizia hanno invece prestato servizio presso le strutture di Protezione Civile adibite al sostegno della popolazione, rispondendo telefonicamente alle migliaia e migliaia di telefonate ricevute quotidianamente.
+Anche ARI Gorizia è scesa in prima linea dando il proprio, anche se piccolo, contributo per il contrasto alla diffusione 
+del COVID-19. Insieme alla squadra comunale di Protezione Civile di Gorizia ha gestito le radiocomunicazioni per il 
+servizio di igienizzazione svolto dall'esercito italiano nelle quattro notti previste.
+Durante il periodo di lockdown, altri operatori di ARI Gorizia hanno invece prestato servizio presso le strutture di 
+Protezione Civile adibite al sostegno della popolazione, rispondendo telefonicamente alle migliaia e migliaia di 
+telefonate ricevute quotidianamente.
 
 A nome di tutti, semplicemente GRAZIE !
 
