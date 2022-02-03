@@ -1,0 +1,47 @@
+{{ define "main" }}
+{{ if $.Params.Breadcrumb }}
+{{- partial "breadcrumb.html" . -}}
+{{ end }}
+<article class="post">
+    <header class="post__header">
+        <h6 class="post__subheadline">{{ $.Params.Subheadline }}</h6>
+        <h1 class="post__title">{{ .Title }}</h1>
+        {{ if .Description }}
+        <p class="post__subtitle">{{ .Description }}</p>
+        {{ end }}
+        {{ if ne .Type "page" }}
+        {{ if and $.Site.Params.posts.showDate $.Site.Params.posts.showAuthor }}
+        <p class="post__date date">
+            {{ dateFormat $.Site.Params.posts.dateFormat .Date }} by {{ $.Params.author }}
+        </p>
+        {{ else if $.Site.Params.posts.showDate }}
+        <p class="post__date date">{{ dateFormat $.Site.Params.posts.dateFormat .Date }}</p>
+        {{ else if $.Site.Params.posts.showAuthor }}
+        <p class="post__author author">by {{ $.Params.author }}</p>
+        {{ end }}
+        {{ end }}
+        <p>
+            {{ .Render "categories" }}
+            {{ .Render "tags" }}
+        </p>
+    </header>
+
+    {{ if ne .Type "page" }}
+    <main class="post__body">
+        {{ .Content }}
+    </main>
+    {{ else }}
+    <main class="post__body" style="margin-bottom: 3rem;">
+        {{ .Content }}
+    </main>
+    {{ end }}
+
+    <!--
+    {{ if ne .Type "page" }}
+    <footer class="post__footer">
+        {{ .Render "tags" }}
+    </footer>
+    {{ end }}
+    -->
+</article>
+{{ end }}

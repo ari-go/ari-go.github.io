@@ -1,0 +1,8 @@
+{{ if and $.Site.Params.posts.showTags .Params.Tags }}
+{{ range .Params.Tags }}
+{{ $url := printf "%stags/%s/" $.Site.BaseURL . }}
+<a href="{{ $url }}" class="category  button tiny warning" alt="{{ . }}.">
+    {{ . }}
+</a>
+{{ end }}
+{{ end }}

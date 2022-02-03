@@ -1,0 +1,17 @@
+{{ $header := resources.Get "js/header.js" }}
+{{ $form := resources.Get "js/form.js" }}
+{{ $bundle := slice $header $form | resources.Concat "js/bundle.js" }}
+{{ $js := $bundle | resources.Minify | resources.Fingerprint "sha512" }}
+
+<script src="{{ $js.Permalink }}"></script>
+
+{{ $jquery := resources.Get "js/foundation/jquery.js" }}
+{{ $wi := resources.Get "js/foundation/what-input.js" }}
+{{ $foundation := resources.Get "js/foundation/foundation.js" }}
+{{ $bundle2 := slice $jquery $wi $foundation | resources.Concat "js/bundle2.js" }}
+{{ $js2 := $bundle2  | resources.Fingerprint "sha512" }}
+
+<script src="{{ $js2.Permalink }}"></script>
+
+
+{{ partial "fontawesome.html" . }}

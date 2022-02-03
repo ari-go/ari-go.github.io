@@ -1,0 +1,37 @@
+<article class="card">
+    <header class="card__header">
+        <h1 class="card__header__title">
+            <a href="{{ .Permalink }}" class="card__header__link" alt="{{ .Title }}.">
+                {{ .Title }}
+            </a>
+        </h1>
+        {{ if ne .Type "page" }}
+        {{ if and $.Site.Params.posts.showDate $.Site.Params.posts.showAuthor }}
+        <p class="card__header__date date">
+            {{ dateFormat $.Site.Params.posts.dateFormat .Date }} by {{ $.Params.author }}
+        </p>
+        {{ else if $.Site.Params.posts.showDate }}
+        <p class="card__header__date date">{{ dateFormat $.Site.Params.posts.dateFormat .Date }}</p>
+        {{ else if $.Site.Params.posts.showAuthor }}
+        <p class="card__header__author author">by {{ $.Params.author }}</p>
+        {{ end }}
+        {{ end }}
+    </header>
+
+    <main class="card__body">
+        {{ with .Params.Images }}
+        {{ range first 1 . }}
+        {{ $image := (resources.Get (print "images/" .)).Resize "200x" }}
+
+        <figure style="float: left; padding: 10px 20px 10px 0;">
+            <img src="{{ $image.RelPermalink }}" style="max-width: 200px; max-height: 200px;">
+        </figure>
+        {{ end }}
+        {{ end }}
+        {{ .Content | truncate 250 " ... [Continua]" }}
+    </main>
+
+    <footer class="card__footer">
+        {{ .Render "tags" }}
+    </footer>
+</article>

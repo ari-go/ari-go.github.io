@@ -1,0 +1,58 @@
+baseURL = "https://www.arigorizia.org/"
+languageCode = "it-IT"
+title = "ARI Gorizia"
+theme = "terrassa"
+
+[params]
+    description = "Sezione ARI di Gorizia"
+    favicon = "favicon.ico"
+    logo = "logo.png"
+
+[params.hero]
+    textColor = "white"
+
+[params.contact] # Contact info
+    email = "contatti@arigorizia.org"
+    phone = ""
+    skype = ""
+    address = "Via S. Michele, 341 - 34170 Gorizia"
+
+[params.posts]
+    showAuthor = true
+    showDate = true
+    showTags = true
+    showCategories = false
+    dateFormat = "2 Jan 2006"
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
