@@ -9,7 +9,7 @@ date: 2021-09-15T22:00:39+02:00
 publishDate: 2021-09-15T22:00:39+02:00
 author: iv3fyo
 images:
-    - 2021-09-15-triathlon-grado/20210904_123142.jpg
+    - 20210915-triathlon-grado/20210904_123142.jpg
 draft: false
 categories:
     - attività
@@ -26,5 +26,5 @@ sacrificio abbiamo portato a casa un buon risultato garantendo il servizio.
   
 73 de IV3FYO Op. Marco
 
-{{< asset-gallery dir="images/2021-09-15-triathlon-grado" />}}
+{{< asset-gallery dir="images/20210915-triathlon-grado" />}}
 {{< load-photoswipe >}}

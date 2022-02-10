@@ -39,6 +39,7 @@ theme = "terrassa"
     disable = true
 
 [markup]
+  defaultMarkdownHandler = 'goldmark'
   [markup.goldmark]
     [markup.goldmark.extensions]
       definitionList = true

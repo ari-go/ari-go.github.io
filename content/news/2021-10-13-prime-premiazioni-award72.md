@@ -9,7 +9,7 @@ date: 2021-10-13T21:04:48+02:00
 publishDate: 2021-10-18T21:04:48+02:00
 author: iv3fyo
 images:
-    - 2021-10-13-prime-premiazioni-award72/20211008_204329.jpg
+    - 20211013-prime-premiazioni-award72/20211008_204329.jpg
 draft: false
 categories:
     - news

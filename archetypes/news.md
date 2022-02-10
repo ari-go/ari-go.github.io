@@ -14,6 +14,7 @@ draft: true
 categories:
     - news
 tags: []
+pinned: false
 ---
 
 {{< asset-gallery dir="images/DIR" />}}

@@ -9,7 +9,7 @@ date: 2021-11-14T20:44:21+01:00
 publishDate: 2021-11-23T20:44:21+01:00
 author: iv3fyo
 images:
-    - 2021-11-14-esami-radioamatore-2021/20211111_100448.jpg
+    - 20211114-esami-radioamatore-2021/20211111_100448.jpg
 draft: false
 categories:
     - news
@@ -31,6 +31,6 @@ dell'organizzazione degli esami con serietà e precisione.
 In ultimo, in nostri più sinceri complimenti ai 4 neopatentati Karin, Stefano, David e Kristian. Speriamo di vedervi
 a breve insieme sezione per cominciare insieme a muovere i primi passi nel mondo radioamatoriale.
 
-{{< asset-gallery dir="images/2021-11-14-esami-radioamatore-2021" />}}
+{{< asset-gallery dir="images/20211114-esami-radioamatore-2021" />}}
 {{< load-photoswipe >}}
 

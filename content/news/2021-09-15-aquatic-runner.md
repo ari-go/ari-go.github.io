@@ -9,7 +9,7 @@ date: 2021-09-15T22:12:12+02:00
 publishDate: 2021-09-15T22:12:12+02:00
 author: iv3fyo
 images:
-    - 2021-09-15-aquatic-runner/IMG-20210912-WA0024.jpg
+    - 20210915-aquatic-runner/IMG-20210912-WA0024.jpg
 draft: false
 categories:
     - attività
@@ -38,5 +38,5 @@ UN SENTITO RINGRAZIAMENTO A TUTTI i presenti ed un "arrivederci" al prossimo ann
 
 73 de IV3FYO Op. Marco
 
-{{< asset-gallery dir="images/2021-09-15-aquatic-runner" />}}
+{{< asset-gallery dir="images/20210915-aquatic-runner" />}}
 {{< load-photoswipe >}}

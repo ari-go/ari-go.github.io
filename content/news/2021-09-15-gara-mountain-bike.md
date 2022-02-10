@@ -9,7 +9,7 @@ date: 2021-09-15T21:46:04+02:00
 publishDate: 2021-09-15T21:46:04+02:00
 author: iv3fyo
 images:
-    - 2021-09-15-gara-mountain-bike/20210829_123415.jpg
+    - 20210915-gara-mountain-bike/20210829_123415.jpg
 draft: false
 categories:
     - attività
@@ -24,5 +24,5 @@ Un grazie a tutti gli operatori che hanno partecipato.
   
 73 de IV3FYO Op. Marco
 
-{{< asset-gallery dir="images/2021-09-15-gara-mountain-bike" />}}
+{{< asset-gallery dir="images/20210915-gara-mountain-bike" />}}
 {{< load-photoswipe >}}

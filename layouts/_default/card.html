@@ -1,4 +1,4 @@
-<article class="card">
+<article class="card {{ if eq .Params.pinned true }}pinned{{ end }}">
     <header class="card__header">
         <h1 class="card__header__title">
             <a href="{{ .Permalink }}" class="card__header__link" alt="{{ .Title }}.">

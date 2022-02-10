@@ -1,6 +1,11 @@
 {{ define "main" }}
 <main class="content">
-    {{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "news") }}
+    {{ $paginator := .Paginate
+        (union
+            (where (where .Data.Pages.ByDate.Reverse "Type" "news") "Params.pinned" true)
+            (where (where .Data.Pages.ByDate.Reverse "Type" "news") "Params.pinned" "!=" true)
+        )
+    }}
 
     {{ range $paginator.Pages }}
     {{ .Render "card" }}

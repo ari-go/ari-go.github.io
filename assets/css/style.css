@@ -278,6 +278,11 @@
     color: var(--primary-text);
 }
 
+.card__header__link__pinned {
+    color: var(--primary-dark);
+    font-weight: bold;
+}
+
 .card__header__link:hover {
     color: var(--primary);
 }
@@ -376,6 +381,7 @@
 
 .post__body > ul,
 .post__body > ol {
+    list-style-type: circle;
     margin-left: 3.75rem;
 }
 
@@ -668,5 +674,13 @@
     text-transform: uppercase;
     width: fit-content;
     border-radius: 10px !important;
+}
+
+.pinned {
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--primary);
+    padding: 20px;
+    border-radius: 10px;
 }
 
