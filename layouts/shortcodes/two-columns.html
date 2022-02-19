@@ -1,7 +1,0 @@
-<div class="grid-x">
-    {{ with split .Inner "|" }}
-    {{ range . }}
-    <div class="cell small-6 medium-6 large-4">{{ . | markdownify }}</div>
-    {{ end }}
-    {{ end }}
-</div>

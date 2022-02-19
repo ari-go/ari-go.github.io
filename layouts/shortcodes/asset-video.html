@@ -1,8 +1,0 @@
-{{- $src := .Get "src" }}
-{{- $video := resources.Get $src }}
-<center>
-<video width="600px" controls="controls" preload="metadata">
-    <source src="{{ $video.RelPermalink }}#t=0.5">
-    Your browser does not support the video tag.
-</video>
-</center>

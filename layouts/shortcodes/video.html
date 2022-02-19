@@ -1,8 +1,0 @@
-<!-- raw html -->
-{{ $baseURL := .Site.BaseURL }}
-{{- $linkURL := print $baseURL ($.Get "src") | absURL }}<!-- absolute URL to hi-res image -->
-<video width=100% controls autoplay>
-    <source src={{$linkURL}} type="video/mp4">
-    Your browser does not support the video tag.
-</video>
-{{.Inner}}
